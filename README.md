@@ -22,25 +22,18 @@ authentication to our Apis.
 
   * Start python shell
 
-        `python3`
+        python3
  
   * Add books data by running below commands, one at a time in python terminal
 
-		`from BookModel import *`
-		
-		`db.create_all()`
-		
-		`Book.add_book('The Tiger Who Came To Tea',4.00,9780007215997)`
-		
-		`Book.add_book('Hippobottymus',2.00,9781848690516)`
-		
-		`Book.add_book('The Wonky Donkey',2.99,9781407195575)`
-		
-		`from UserModel import *`
-		
-		`db.create_all()`
-		
-		`User.create_user('user1','password')`
+		from BookModel import *		
+		db.create_all()		
+		Book.add_book('The Tiger Who Came To Tea',4.00,9780007215997)	
+		Book.add_book('Hippobottymus',2.00,9781848690516)
+		Book.add_book('The Wonky Donkey',2.99,9781407195575)
+		from UserModel import *
+		db.create_all()
+		User.create_user('user1','password')
 
 
 ### Use cases
